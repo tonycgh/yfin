@@ -1,0 +1,31 @@
+cd /media/ubu/VBox_GAs_6.1.48/
+sudo ./VBoxLinuxAdditions.run 
+sudo apt-get install build-essential linux-headers-$(uname -r) -y
+./VBoxLinuxAdditions.run 
+sudo apt install net-tools
+ifconfig
+sudo apt install openssh-server
+sudo apt install git
+sudo apt install tmux
+sudo apt-get install mysql-server
+sudo mysql
+sudo apt install python3
+sudo apt install pip
+sudo apt update
+sudo apt upgrade
+mkdir GitClones
+cd GitClones/
+sudo apt install vim
+sudo apt install locate
+sudo updatedb
+cd GitClones/
+cd Finance_Database_SQL/
+vim database_table_creation.sql 
+vim data_injection_v2.py 
+cd templates/
+vim flask_webapp.py 
+vim flask_webapp_tc_1.py 
+cd Documents/
+sudo apt install htop
+sudo apt install iftop
+tmux new -s tctmux1
