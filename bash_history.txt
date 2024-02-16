@@ -14,18 +14,9 @@ sudo apt install pip
 sudo apt update
 sudo apt upgrade
 mkdir GitClones
-cd GitClones/
 sudo apt install vim
 sudo apt install locate
 sudo updatedb
-cd GitClones/
-cd Finance_Database_SQL/
-vim database_table_creation.sql 
-vim data_injection_v2.py 
-cd templates/
-vim flask_webapp.py 
-vim flask_webapp_tc_1.py 
-cd Documents/
 sudo apt install htop
 sudo apt install iftop
 tmux new -s tctmux1
